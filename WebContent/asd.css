@@ -1,0 +1,95 @@
+/*------------------------------------*\
+   EMAIL CLIENT SPECIFIC STYLES
+\*------------------------------------*/
+body, table, td, p, a, li, blockquote { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+img { -ms-interpolation-mode:bicubic; }
+.ReadMsgBody, .ExternalClass { width:100%; }  
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height:100%; }
+.footer a { color:#e31937!important; text-decoration:none!important; }
+.iOSfix a { color:#cccccc; text-decoration:none; }
+.iOSfixaside a { color:/*#000000*/; text-decoration:none; }
+.em-dragdrop-dummy { display:none!important; }
+	
+/*------------------------------------*\
+   RESET STYLES
+\*------------------------------------*/
+body { min-width:100% !important; }
+html { width:100%; }
+img { border:0; height:auto; line-height:100%; outline:none; text-decoration:none; }
+table { border-collapse:collapse !important; }
+body, .emWrapperTable, .emWrapperCell { height:100% !important; margin:0; padding:0; }	
+.mobileHeaderWidth .em-dockitem-empty, .mobileFooterWidth .em-dockitem-empty, .emWrapperTable, .emWrapperCell { width:100% !important; }
+div { padding:0px !important; }
+#divHostedEmailLink { padding-bottom:10px!important; }
+h1, h2, h3, h4, h5, h6 { display:block; margin:0px; }
+p { margin:0em 0em 1em; margin-bottom:1em; }
+
+/*------------------------------------*\
+   MOBILE STYLES
+\*------------------------------------*/	
+@media only screen and (max-device-width: 720px)  {
+	td[class="mobileHeaderCell"],
+	td[class="mobileColumnCell"],
+	td[class="mobileLeftColumnCell"],
+	td[class="mobileMiddleColumnCell"],
+	td[class="mobileRightColumnCell"],
+	td[class="mobileFooterCell"],
+	td[class~="mWidth"] { display:block !important; }
+	table[class="mobileHeaderWidth"],
+	table[class="mobileColumnWidth"],
+	table[class="mobileFooterWidth"],
+	td[class="mobileHeaderCell"],
+	td[class="mobileColumnCell"],
+	td[class="mobileLeftColumnCell"],
+	td[class="mobileMiddleColumnCell"],
+	td[class="mobileRightColumnCell"],
+	td[class="mobileFooterCell"],
+	*[class~="mWidth"] { width:100%!important; }
+	
+	/* general display styles */
+	td { -webkit-box-sizing:border-box; box-sizing:border-box; }
+	*[class~="mHide"] { display:none!important; }
+	*[class~="mBreak"] { display:block!important; }
+	table[class="mobileColumnWidth"],
+	table[class="mobileFooterWidth"],
+	*[class~="mCenter"] { margin:0px auto!important; }
+	*[class~="mTextCenter"] { text-align:center!important; }
+	td[class="mobileLeftColumnCell"],
+	td[class="mobileRightColumnCell"],
+	*[class~="padT15"] { padding-top:15px!important; }
+	td[class="mobileLeftColumnCell"],
+	td[class="mobileRightColumnCell"],
+	*[class~="padR15"] { padding-right:15px!important; }
+	*[class~="padB15"] { padding-bottom:15px!important; }
+	td[class="mobileLeftColumnCell"],
+	td[class="mobileRightColumnCell"],
+	*[class~="padL15"] { padding-left:15px!important; }
+	*[class~="shim"] { height:15px!important; }
+	
+	/* link styles */
+	td[class~="footLinks"] a { display:block; width:100%; background-color:#444444; text-align:center; padding:5px; margin:0px 0px 10px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-size:14px!important; }
+	td[class~="footLinks"] br { display:none!important; }
+	
+	/* image styles */
+	td[class~="mFullImage"] img,
+	img[class~="mFullImage"] { width:100%!important; height:auto!important; }	
+}
+
+@media only screen and (max-device-width: 320px) {
+	table[class="mobileHeaderWidth"],
+	table[class="mobileColumnWidth"],
+	table[class="mobileFooterWidth"],
+	td[class="mobileHeaderCell"],
+	td[class="mobileColumnCell"],
+	td[class="mobileLeftColumnCell"],
+	td[class="mobileMiddleColumnCell"],
+	td[class="mobileRightColumnCell"],
+	td[class="mobileFooterCell"] { width:320px!important; }
+	
+	/* general display styles */
+	
+	/* link styles */
+	
+	/* image styles */
+}
