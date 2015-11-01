@@ -95,13 +95,13 @@ form input {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: #000000;
+  color: white;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
   font-weight: 300;
 }
 form input:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 form input:focus {
   background-color: white;
@@ -239,13 +239,5 @@ form button:hover {
 }
 .logo-img{
 	width:50%;
-}
-.register{
-	font-family:Lato;
-	font-size:2em;
-	font-weight:700;
-}
-#register-form{
-	display:none;
 }
  

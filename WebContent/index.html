@@ -19,29 +19,13 @@
     <div class="container-fluid">
 	<div class="container">
 		<h1><img class="logo-img" src="./Logo.svg"></h1>
-		<form class="form" id="initial-form">
+		<form class="form">
 			<input type="text" placeholder="Username">
 			<input type="password" placeholder="Password">
 			<button type="submit" id="login-button">Login</button>
-			<div class="register">or</div>
-			<button type="button" id="login-button" onclick="register()">Register for free</button>
-		</form>
-		<form class="form" id="register-form">
-			<input type="text" placeholder="First Name">
-			<input type="text" placeholder="Last Name">
-			<input type="text" placeholder="Age">
-			<input type="text" placeholder="Username">
-			<input type="password" placeholder="Password">
-			<button type="submit">Register</button>
 		</form>
 	</div>
 </div>
-    <script>
-    function register(event){
-    	$('#initial-form').fadeOut('fast');
-    	$('#register-form').fadeIn(1000);
-    	
-    }
-    </script>
+    
   </body>
 </html>
