@@ -16,7 +16,7 @@
     <script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid img-responsive">
 	<div class="container">
 		<h1><img class="logo-img" src="./Logo.svg"></h1>
 		<form class="form" id="initial-form">
@@ -37,8 +37,11 @@
 	</div>
 </div>
     <script>
-    function register(event){
+    function register(){
     	$('#initial-form').fadeOut('fast');
+    	showRegister(1000);
+    }
+    function showRegister(){
     	$('#register-form').fadeIn(1000);
     	
     }
