@@ -1,0 +1,33 @@
+.login {
+	margin-right: 20px;
+}
+
+.FFEBCD {
+	background-color: #FFEBCD;
+}
+
+.center {
+	text-align: center;
+	margin-top:50px;
+}
+
+.body {
+	margin: 0 50px 0 50px;
+	max-height: 500px;
+	height: 100%;
+}
+
+.genderSelect {
+	font-size: 4em;
+	font-family: Lato;
+	font-weight: 700;
+}
+.men img {
+	margin: 0 15px;
+}
+p{
+	display:inline-block;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
