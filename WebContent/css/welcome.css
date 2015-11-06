@@ -8,6 +8,7 @@
 
 .center {
 	text-align: center;
+	margin-top:50px;
 }
 
 .body {
@@ -21,31 +22,12 @@
 	font-family: Lato;
 	font-weight: 700;
 }
-
-.men{
-	line-height: 0px;
-	color: transparent;
-	font-size: 50px;
-	font-weight: 300;
-	text-transform: uppercase;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-}
-
-.men:hover {
-	line-height: 133px;
-	color: #575858;
-	-webkit-transform:scale(1.1); /* Safari and Chrome */
-    -moz-transform:scale(1.1); /* Firefox */
-    -ms-transform:scale(1.1); /* IE 9 */
-    -o-transform:scale(1.1); /* Opera */
-     transform:scale(1.1);
-}
-
 .men img {
 	margin: 0 15px;
 }
 p{
 	display:inline-block;
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
