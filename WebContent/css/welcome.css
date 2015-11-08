@@ -1,10 +1,14 @@
+body {
+	font-family: Lato;
+}
+
 .login {
 	margin-right: 20px;
 }
 
 .center {
 	text-align: center;
-	margin-top:50px;
+	margin-top: 50px;
 }
 
 .body {
@@ -15,22 +19,105 @@
 
 .genderSelect {
 	font-size: 4em;
-	font-family: Lato;
 	font-weight: 700;
 }
+
 .men img {
 	margin: 0 15px;
 }
-p{
-	display:inline-block;
+
+p {
+	display: inline-block;
 }
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
-
-.none{
-	display:none;
+.grow {
+	transition: all .2s ease-in-out;
 }
-.partsImg{
-	border-radius: 150px;
+
+.grow:hover {
+	transform: scale(1.1);
+}
+
+.none {
+	display: none;
+}
+
+#BodyParts {
+	width: 70%;
+	float: right;
+	margin-top: 10%;
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	background: black;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	color: white;
+	display: inline-block;
+	margin: 10px;
+}
+
+.circle-text {
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	display: table-cell;
+	font-size: 2em;
+	text-decoration: none !important;
+	color:white;
+}
+.circle-text:hover{
+	color:white;
+}
+
+.hvr-radial-out {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	overflow: hidden;
+	background: #0BEC0B;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s
+}
+
+.hvr-radial-out:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #2098d1;
+	border-radius: 100%;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out
+}
+
+.hvr-radial-out:active, .hvr-radial-out:focus, .hvr-radial-out:hover {
+	color: #fff
+}
+
+.hvr-radial-out:active:before, .hvr-radial-out:focus:before,
+	.hvr-radial-out:hover:before {
+	-webkit-transform: scale(2);
+	transform: scale(2)
 }
