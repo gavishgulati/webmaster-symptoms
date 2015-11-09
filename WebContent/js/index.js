@@ -8,3 +8,13 @@ function womanClick(){
 	$("#womanBodyParts").removeClass("none");
 	$("#womanBodyParts").addClass("animated bounceInLeft");
 }
+$(document).ready(function(){
+$(".circle-text").click(function(){
+	 if($(this).text() == 'HEAD'){
+		 $("#manBodyParts").addClass("animated bounceOutLeft none");
+		 $("#manBodyParts").removeClass("bounceInLeft");
+    	 $("#headsub").removeClass("none");
+		 $("#headsub").addClass("animated zoomInLeft");
+	 }
+});
+});
